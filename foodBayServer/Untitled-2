@@ -1,0 +1,41 @@
+ db.items.insertMany([{
+	"foodId" : 8,
+	"foodName" : "south indian thali",
+	"price" : 90,
+	"available" : 30
+}]),
+{
+	"_id" : ObjectId("5baa858d6fce95a7e54c032a"),
+	"foodId" : 3,
+	"foodName" : "non-veg meal",
+	"price" : 120,
+	"available" : 30
+},
+{
+	"_id" : ObjectId("5baa85b56fce95a7e54c032b"),
+	"foodId" : 4,
+	"foodName" : "idli-vada",
+	"price" : 40,
+	"available" : 30
+},
+{
+	"_id" : ObjectId("5baa85df6fce95a7e54c032c"),
+	"foodId" : 5,
+	"foodName" : "aaloo paratha,",
+	"price" : 50,
+	"available" : 30
+},
+{
+	"_id" : ObjectId("5baa86216fce95a7e54c032d"),
+	"foodId" : 6,
+	"foodName" : "dosa",
+	"price" : 50,
+	"available" : 30
+},
+{
+	"_id" : ObjectId("5babbab5cd36751cf5fcf14b"),
+	"foodId" : 7,
+	"foodName" : "north indian thali",
+	"price" : 100,
+	"available" : 30
+}])

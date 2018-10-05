@@ -1,0 +1,8 @@
+db.Item.insertMany([
+   { foodName: "idli-vada",foodId:2,price:80, available:20 },
+   { foodName: "non-veg meal",foodId:3,price:120, available:20 }
+   
+])
+db.orders.find({orderedItem:{deliveryboynumber:6361572294}})
+
+orders.findOne({orderedItem.deliveryboynumber:6361572294})
